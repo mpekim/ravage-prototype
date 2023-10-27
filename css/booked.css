@@ -1,0 +1,60 @@
+/*for book.html page. - mmorley*/
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    background: #fff;
+    font-family: 'Inter';
+    font-size: 1em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    cursor: crosshair;
+}
+
+body a{
+    margin: 10px;
+    padding: 10px;
+    background-color: #32cd32;
+    border: 1px solid red;
+    border-radius: 45px;
+    font-style: italic;
+    text-align: center;
+}
+
+body h1{
+    padding: 30px;
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+}
+
+div.booking ul li{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+div.booking ul li button{
+    color: #FFFFFF;
+    background-color: red;
+    border: 1px solid black;
+    font-family: 'Inter';
+    border-radius: 45px;
+}

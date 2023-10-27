@@ -2,14 +2,39 @@
 <html>
     <head>
         <link href="../css/reset.css" rel="stylesheet" type="text/css" />
-        <link href="../css/ravage.css" rel="stylesheet" type="text/css" />
+        <link href="../css/booked.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../js/portal.js"></script>
     </head>
-    <body>
-        <h1>Show Successfully booked!</h1>
-        <div id="show">
-
+    <body">
+        <h1>Booking Confirmation</h1>
+        <div class="booking" id="show">
+            <h1>SELECT YOUR SHOW</h1>
+            <ul>
+                <li>
+                    <p>Tire Warehouse - Waiting Room</p>
+                    <p class="date">Worcester, MA 8/11/23</p>
+                    <button onclick="createShowData(1)">BOOK THIS SHOW</button>
+                </li>
+                <li>
+                    <p>Brown Hospital - Waiting Room</p>
+                    <p class="date">Worcester, MA 9/11/23</p>
+                    <button onclick="createShowData(2)">BOOK THIS SHOW</button>
+                </li>
+                <li>
+                    <p>Unemployment Office - Waiting Room</p>
+                    <p class="date">Worcester, MA 10/11/23</p>
+                    <button onclick="createShowData(3)">BOOK THIS SHOW</button>
+                </li>
+                <li>
+                    <p>Getty Auto Repair - Waiting Room</p>
+                    <p class="date">Worcester, MA 11/11/23</p>
+                    <button onclick="createShowData(4)">BOOK THIS SHOW</button>
+                </li>
+            </ul>
         </div>
-        <a href="index.html">&laquo; Return to Main Menu</a>
+        <br>
+        <div>
+            <a href="index.html">&laquo; Return to Main Menu</a>
+        </div>
     </body>
 </html>

@@ -180,9 +180,9 @@ section.above-the-fold div.video-container ul.video li:nth-of-type(even) {
 }
 
 section.above-the-fold div.video-container ul.video li:last-child {
+    text-align: right;
     justify-content: flex-end;
     padding-bottom: 1em;
-    text-align: right;
 }
 
 section.above-the-fold main {
@@ -216,6 +216,15 @@ section.above-the-fold form input {
     border: 0px;
     width: auto;
     text-align: center;
+}
+
+/*Button for booking shows. - mmorley */
+section.above-the-fold main button{
+    color: #FFFFFF;
+    background-color: red;
+    border: 1px solid black;
+    font-family: 'Inter';
+    border-radius: 45px;
 }
 
 section.above-the-fold form button {
@@ -253,15 +262,6 @@ section.above-the-fold main ul li {
 section.above-the-fold main ul li p.date{
         font-style: italic;
         font-size: 0.75em;
-}
-
-/*Button for booking shows. - mmorley */
-section.above-the-fold main ul li button{
-    color: #FFFFFF;
-    background-color: red;
-    border: 1px solid black;
-    font-family: 'Inter';
-    border-radius: 45px;
 }
 
 section.above-the-fold section.columns {

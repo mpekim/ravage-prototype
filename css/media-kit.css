@@ -1,0 +1,72 @@
+/*CSS for Media Kit Page. -- mmorley*/
+@font-face {
+   font-family: 'Inter';
+   src: url('../fonts/Inter-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Inter';
+   src: url('../fonts/Inter-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Inter';
+   src: url('../fonts/Inter-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+
+   position: relative;
+
+   color: #000000;
+   background-color: #FFFFFF;
+   font-family: 'Inter';
+}
+
+section.main div.synopsis{
+  color: black;
+}
+
+section.main aside{
+   background-color: #32cd32;
+   border: 1px solid black;
+   border-radius: 15px;
+   position: absolute;
+   padding: 15px;
+   top: 200px;
+   box-shadow: 5px 5px 5px black;
+   text-shadow: 5px 5px 5px white;
+}
+
+section.main aside a{
+   padding: 5px;
+   margin: 10px;
+}
+
+section.header-content{
+   font-weight: 1000;
+   border: 1px solid black;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+section.header-content p{
+   font-size: 36px;
+}
+
+section.header-content a{
+   font-style: italic;
+}
+
+section.main{
+   color: #000000;
+   font-style: oblique;
+}

@@ -1,17 +1,30 @@
-function bookShow(number){
-    var url = "booked.html";
+class Show{
+    constructor(number){
+        this.number = number;
+    }
+    getNumber(){
+        return this.number;
+    }
+}
+
+function goToBooked(){
+    url  = "booked.html";
     window.location.href = url;
-    createShowData(number);
+}
+
+function goToMediaKit(){
+    url = "media-kit.html";
+    window.location.href = url;
 }
 
 function returnToIndex(){
-    var url = "index.html";
+    url = "index.html";
     window.location.href = url;
 }
 
 function createShowData(showNumber){
     const output = document.querySelector("#show");
-    output.appendChild(createNumber("Your selected show is: "));
+    output.appendChild(createNumber("Your selected show is: " + showNumber));
 }
 
 function createNumber(number){
